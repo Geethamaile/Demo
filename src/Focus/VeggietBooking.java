@@ -37,6 +37,7 @@ public class VeggietBooking {
 	}
 	public static void wrapper(long num) throws InterruptedException {
 		Thread.sleep(num);
+		System.out.println("time spent");
 	}
 
 }
