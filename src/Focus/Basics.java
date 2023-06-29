@@ -27,6 +27,10 @@ public class Basics {
 		System.out.println(asd);
 		
 	}
+	public void Parachute() {
+		System.out.println("car is petrol");
+	}
+	
 	public void revObject()
 	{
 		System.out.println("Selenium automation");
