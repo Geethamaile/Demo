@@ -12,10 +12,19 @@ public class Basics {
 		System.out.println("grid");
 		Basics b = new Basics();
 		b.Car();
+		b.revString();
 
 	}
 	public void Car() {
 		System.out.println("car petrol");
+	}
+	public void revString() {
+		String asd = "abcde";
+		StringBuffer sb = new StringBuffer();
+		StringBuffer name =sb.reverse();
+		System.out.println(name);
+		System.out.println(asd);
+		
 	}
 
 }
