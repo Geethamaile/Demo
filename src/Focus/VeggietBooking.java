@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 public class VeggietBooking {
 	 public static WebDriver driver;
+	 int ak=9;
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		ChromeOptions opt = new ChromeOptions();
@@ -24,6 +25,13 @@ public class VeggietBooking {
 		//driver.close();
 		
 
+	}
+	
+	public void thisRef() {
+		System.out.println("this.a=h");
+	}
+	public void thisRef2() {
+		System.out.println("this.a=hi");
 	}
 	public static void OrderBtn() throws InterruptedException {
 		driver.findElement(By.xpath("//input[@type='search']")).sendKeys("Br");

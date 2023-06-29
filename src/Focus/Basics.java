@@ -19,6 +19,9 @@ public class Basics {
 	public void Car() {
 		System.out.println("car petrol");
 	}
+	public void Gita() {
+		System.out.println("Jai krishna");
+	}
 	public void revString() {
 		String asd = "abcde";
 		StringBuffer sb = new StringBuffer();
