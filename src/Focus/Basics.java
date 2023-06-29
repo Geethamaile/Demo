@@ -19,6 +19,9 @@ public class Basics {
 	public void Car() {
 		System.out.println("car petrol");
 	}
+	public void Belief() {
+		System.out.println("God power");
+	}
 	public void Gita() {
 		System.out.println("Jai krishna");
 	}
