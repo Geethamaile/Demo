@@ -13,6 +13,7 @@ public class Basics {
 		Basics b = new Basics();
 		b.Car();
 		b.revString();
+		b.revObject();
 
 	}
 	public void Car() {
@@ -29,6 +30,20 @@ public class Basics {
 	public void revObject()
 	{
 		System.out.println("Selenium automation");
+		int g = 45;
+		int h = 67;
+		int temp = 0;
+				temp=g;
+		g=h;
+		
+		 h= temp;
+		 
+		
+		
+		System.out.println(g);
+		
+		
+		System.out.println(h);
 	}
 
 }
