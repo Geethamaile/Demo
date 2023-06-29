@@ -26,5 +26,9 @@ public class Basics {
 		System.out.println(asd);
 		
 	}
+	public void revObject()
+	{
+		System.out.println("Selenium automation");
+	}
 
 }
