@@ -29,7 +29,8 @@ public class VeggietBooking {
 	
 	public void thisRef() {
 		System.out.println("this.a=h");
-	}
+		System.out.println("this.a=hy");
+}
 	public void thisRef2() {
 		System.out.println("this.a=hi");
 	}
